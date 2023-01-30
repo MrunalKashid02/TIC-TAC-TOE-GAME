@@ -55,21 +55,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20sp" />
+                android:onClick="playerTab"
+                android:padding="20sp"
+                android:tag="0" />
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20sp" />
+                android:onClick="playerTab"
+                android:padding="20sp"
+                android:tag="1" />
 
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20sp" />
+                android:onClick="playerTab"
+                android:padding="20sp"
+                android:tag="2" />
         </LinearLayout>
 
         <LinearLayout
@@ -83,21 +89,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20sp" />
+                android:onClick="playerTab"
+                android:padding="20sp"
+                android:tag="3"/>
 
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20sp" />
+                android:onClick="playerTab"
+                android:padding="20sp"
+                android:tag="4" />
 
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20sp" />
+                android:onClick="playerTab"
+                android:padding="20sp"
+                android:tag="5" />
         </LinearLayout>
 
         <LinearLayout
@@ -110,22 +122,27 @@
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:padding="20sp" />
+                android:onClick="playerTab"
+                android:padding="20sp"
+                android:tag="6" />
 
             <ImageView
                 android:id="@+id/imageView9"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20sp" />
+                android:onClick="playerTab"
+                android:padding="20sp"
+                android:tag="7" />
 
             <ImageView
                 android:id="@+id/imageView10"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20sp" />
+                android:onClick="playerTab"
+                android:padding="20sp"
+                android:tag="8" />
         </LinearLayout>
 
     </LinearLayout>
